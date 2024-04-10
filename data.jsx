@@ -9,7 +9,7 @@ import {
 } from 'react-icons/fa';
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
-import Work1 from './src/assets/project-1.jpeg';
+import Work1 from './src/assets/project-1.png';
 import Work2 from './src/assets/project-2.jpg';
 import Work3 from './src/assets/project-3.jpeg';
 import Work4 from './src/assets/project-4.jpeg';
@@ -61,25 +61,25 @@ export const personalInfo = [
   {
     id: 1,
     title: 'First Name : ',
-    description: 'Steve',
+    description: 'Jean',
   },
 
   {
     id: 2,
     title: 'Last Name : ',
-    description: 'Milner',
+    description: 'Gomes',
   },
 
   {
     id: 3,
     title: 'Age : ',
-    description: '27 Years',
+    description: '22 Years',
   },
 
   {
     id: 4,
     title: 'Nationality : ',
-    description: 'Tunisian',
+    description: 'Brazilian',
   },
 
   {
@@ -89,59 +89,53 @@ export const personalInfo = [
   },
 
   {
-    id: 6,
-    title: 'Address : ',
-    description: 'Tunis',
-  },
-
-  {
     id: 7,
     title: 'Phone : ',
-    description: '+21621184010',
+    description: '+5521975571953',
   },
 
   {
     id: 8,
     title: 'Email : ',
-    description: 'you@mail.com',
+    description: 'jeangomes1567@gmail.com',
   },
 
   {
     id: 9,
-    title: 'Skype : ',
-    description: 'steve.milner',
+    title: 'linkedin : ',
+    description: 'https://www.linkedin.com/in/jean-gomes-035297193/',
   },
 
   {
     id: 10,
-    title: 'Langages : ',
-    description: 'French, English',
+    title: 'Languages : ',
+    description: 'English',
   },
 ];
 
 export const stats = [
   {
     id: 1,
-    no: '12+',
+    no: '03+',
     title: 'Years of <br /> Experience',
   },
 
   {
     id: 2,
-    no: '97+',
+    no: '04+',
     title: 'Completed <br /> Projects',
   },
 
   {
     id: 3,
-    no: '81+',
+    no: '04+',
     title: 'Happy <br /> Customers',
   },
 
   {
     id: 4,
-    no: '53+',
-    title: ' Awards <br /> Won',
+    no: '04+',
+    title: ' Certificates <br />',
   },
 ];
 
@@ -150,12 +144,12 @@ export const resume = [
     id: 1,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2018 - PRESENT',
-    title: 'Web Developer <span> Envato </span>',
+    year: '2021 - 2024',
+    title: 'Data  IT Project Assistant at  <span> EY (Ernst Young) </span>',
     desc: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,',
   },
 
-  {
+  /*{
     id: 2,
     category: 'experience',
     icon: <FaBriefcase />,
@@ -171,14 +165,14 @@ export const resume = [
     year: '2005 - 2013',
     title: 'Consultant <span> Videohive </span>',
     desc: 'Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt',
-  },
+  },*/
 
   {
     id: 4,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2015',
-    title: 'Engineering Degree <span> Oxford University </span>',
+    year: '2020',
+    title: 'Full Stack Programming <span> Recode Pro </span>',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore',
   },
 
@@ -186,8 +180,9 @@ export const resume = [
     id: 5,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2012',
-    title: 'Master Degree <span> KIEV University </span>',
+    year: '2021',
+    title:
+      'Computer technician <span> - Institute Federal of Education, Science and Technology of Rio de Janeiro (IFRJ) </span>',
     desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
   },
 
@@ -195,8 +190,8 @@ export const resume = [
     id: 6,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2009',
-    title: 'Bachelor Degree <span> Tunis High School </span>',
+    year: '2024',
+    title: 'Systems Development Analysis <span> Estacio University </span>',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore',
   },
 ];
@@ -205,48 +200,48 @@ export const skills = [
   {
     id: 1,
     title: 'Html',
-    percentage: '25',
+    percentage: '90',
   },
 
   {
     id: 2,
     title: 'Javascript',
-    percentage: '89',
+    percentage: '85',
   },
 
   {
     id: 3,
     title: 'Css',
-    percentage: '70',
+    percentage: '85',
   },
 
   {
     id: 4,
-    title: 'Php',
-    percentage: '66',
+    title: 'Java',
+    percentage: '55',
   },
 
   {
     id: 5,
-    title: 'Wordpress',
-    percentage: '95',
+    title: 'Python',
+    percentage: '25',
   },
 
   {
     id: 6,
-    title: 'Jquery',
-    percentage: '50',
+    title: 'Node Js',
+    percentage: '10',
   },
 
   {
     id: 7,
-    title: 'Angular',
+    title: 'SQL',
     percentage: '65',
   },
 
   {
     id: 8,
-    title: 'React',
+    title: 'React Js',
     percentage: '45',
   },
 ];
@@ -255,7 +250,7 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
-    title: 'Photo Editing',
+    title: 'My First Portfolio',
     details: [
       {
         icon: <FiFileText />,
@@ -275,7 +270,8 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://dev-jean-gomes.netlify.app',
+        URL: 'https://dev-jean-gomes.netlify.app',
       },
     ],
   },
