@@ -7,6 +7,7 @@
   width: 100%;
   padding: 60px 30px;
   transition: all 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  z-index: 100;
 }
 
 
@@ -47,6 +48,7 @@
   border-radius: 5px;
   background-color: var(--container-color);
   padding: 12px 10px;
+  z-index: 100;
 }
 
 .nav__toggle span {
@@ -80,7 +82,7 @@
   }
 
   .nav {
-    z-index: 1000;
+    z-index: 200;
     position: fixed;
     inset-block: 0;
     right: 30px;
@@ -117,11 +119,11 @@
     color: var(--text-white);
     opacity: 0;
     visibility: hidden;
-    z-index: 9999;
     transition: all 0.3s ease;
   }
 
   .nav__link:hover .nav__name {
+    z-index: -1;
     right: 27px;
     color: var(--text-white);
     opacity: 1;

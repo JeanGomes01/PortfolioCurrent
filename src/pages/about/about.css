@@ -71,6 +71,7 @@
   grid-template-columns: repeat(4, 1fr);
   justify-items: center;
   row-gap: 48px;
+  height: 600px;
 }
 
 .progress__circle {
@@ -96,10 +97,19 @@
 .skills__title {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  font-weight: var(--weight-400);
+  font-weight: var(--weight-600);
   text-align: center;
   margin-top: 24px;
 }
+
+.paragrafo__skills {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  font-weight: var(--weight-400);
+  text-align: center;
+  margin-top: 50px;
+}
+
 
 .resume__item {
   position: relative;

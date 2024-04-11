@@ -201,48 +201,64 @@ export const skills = [
     id: 1,
     title: 'Html',
     percentage: '90',
+    imgLogo: './html-icon.png',
+    pSkills: 'Advanced',
   },
 
   {
     id: 2,
-    title: 'Javascript',
+    title: 'Css',
     percentage: '85',
+    imgLogo: './css-icon.png',
+    pSkills: 'Advanced',
   },
 
   {
     id: 3,
-    title: 'Css',
+    title: 'Javascript',
     percentage: '85',
+    imgLogo: './js-icon.png',
+    pSkills: 'Advanced',
   },
 
   {
     id: 4,
     title: 'Java',
     percentage: '55',
+    imgLogo: './java_language.png',
+    pSkills: 'Begginer',
   },
 
   {
     id: 5,
     title: 'Python',
     percentage: '25',
+    imgLogo: './Python-icon.png ',
+    pSkills: 'Begginer',
   },
 
   {
     id: 6,
     title: 'Node Js',
-    percentage: '10',
+    percentage: 'Begginer',
+    imgLogo: './node-js-icon.png',
+    pSkills: 'Begginer',
   },
 
   {
     id: 7,
     title: 'SQL',
     percentage: '65',
+    imgLogo: './sql-icon.png',
+    pSkills: 'Intermediate',
   },
 
   {
     id: 8,
     title: 'React Js',
-    percentage: '45',
+    percentage: 'Begginer',
+    imgLogo: './React-icon.png',
+    pSkills: 'Intermediate',
   },
 ];
 
@@ -251,27 +267,27 @@ export const portfolio = [
     id: 1,
     img: Work1,
     title: 'My First Portfolio',
+    url: 'https://dev-jean-gomes.netlify.app',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Photo',
+        desc: 'My First Portfolio',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: '',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        desc: 'HTML, CSS e JS',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
         desc: 'https://dev-jean-gomes.netlify.app',
-        URL: 'https://dev-jean-gomes.netlify.app',
       },
     ],
   },
@@ -316,7 +332,7 @@ export const portfolio = [
       },
       {
         icon: <FiUser />,
-        title: 'Client : ',
+        title: ' : ',
         desc: 'Dribble',
       },
       {

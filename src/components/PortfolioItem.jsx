@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Close from '../assets/close.svg';
 
-const PortfolioItem = ({ img, title, details }) => {
+const PortfolioItem = ({ img, title, details, url }) => {
   const [modal, setModal] = useState(false);
 
   const toggleModal = () => {
@@ -39,8 +39,9 @@ const PortfolioItem = ({ img, title, details }) => {
                 );
               })}
             </ul>
-
-            <img src={img} alt="" className="modal__img" />
+            <a target="_blank" href={url}>
+              <img src={img} alt="" className="modal__img" />
+            </a>
           </div>
         </div>
       )}
