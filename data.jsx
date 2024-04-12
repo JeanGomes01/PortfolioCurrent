@@ -102,8 +102,8 @@ export const personalInfo = [
 
   {
     id: 9,
-    title: 'linkedin : ',
-    description: 'https://www.linkedin.com/in/jean-gomes-035297193/',
+    title: 'Hobbies : ',
+    description: 'Watch Animes and series, Assemble puzzles, read books',
   },
 
   {
@@ -146,7 +146,7 @@ export const resume = [
     icon: <FaBriefcase />,
     year: '2021 - 2024',
     title: 'Data  IT Project Assistant at  <span> EY (Ernst Young) </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,',
+    desc: 'I worked for almost 3 years as an IT project assistant with data analysis using ETL process with data and database manager such as SQL Server',
   },
 
   /*{
@@ -173,7 +173,7 @@ export const resume = [
     icon: <FaGraduationCap />,
     year: '2020',
     title: 'Full Stack Programming <span> Recode Pro </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore',
+    desc: '',
   },
 
   {
@@ -183,7 +183,7 @@ export const resume = [
     year: '2021',
     title:
       'Computer technician <span> - Institute Federal of Education, Science and Technology of Rio de Janeiro (IFRJ) </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+    desc: '',
   },
 
   {
@@ -192,7 +192,7 @@ export const resume = [
     icon: <FaGraduationCap />,
     year: '2024',
     title: 'Systems Development Analysis <span> Estacio University </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore',
+    desc: '',
   },
 ];
 
