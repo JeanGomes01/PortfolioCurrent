@@ -15,10 +15,10 @@ const Home = () => {
           </h1>
 
           <p className="home__description">
-            I'm a Brazilian based software developer developer focused on
-            crafting clean & user-friendly experiences, I am passionate about
-            techonoly building excellent software that improves the lives of
-            those around me.
+            I'm a Brazilian based software developer focused on crafting clean &
+            user-friendly experiences, I am passionate about technology and
+            building excellent software that improves the lives of those around
+            me.
           </p>
 
           <Link to="./about" className="button">
