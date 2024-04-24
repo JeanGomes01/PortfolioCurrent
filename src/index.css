@@ -273,6 +273,9 @@
   .info__list  {
     text-align: justify;
   }
+  .info__list {
+    grid-template-columns: 1fr;
+  }
   .stats {
     grid-template-columns: 1fr;
     width: 50%;
