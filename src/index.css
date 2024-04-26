@@ -282,10 +282,10 @@
     margin: left;
   }
   .skills__container{
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     margin: left;
-    height: 100%;
-    margin-bottom: 100px;
+    height: 90%;
+    margin-bottom: 90%;
   }
 
   .resume__data {
