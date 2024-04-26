@@ -239,9 +239,9 @@
 
 
 @media screen and (max-width: 450px) {
-  .home__img {
+  /* .home__img {
     display: none;
-  }
+  } */
   .home__content {
     margin-block: auto;
     text-align: left;
@@ -249,6 +249,11 @@
 
   .home__title{
     font-size: var(--h1-font-size);
+    
+  }
+  .home__title::before {
+    display: none;
+    
   }
   .home__description {
     text-align: justify;
