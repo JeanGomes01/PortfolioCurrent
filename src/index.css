@@ -168,10 +168,11 @@
     padding: 25px 20px;
   }
 
-  .modal_close {
-    top: -9%;
-    right: 0%;
-  }
+  .modal__close {
+    top: -4%;
+    right: -2%;
+  } 
+  
 }
 
 
@@ -297,4 +298,5 @@
     width: 100%;
     height: 100%;
   }
+  
 }

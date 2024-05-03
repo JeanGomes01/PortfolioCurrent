@@ -109,7 +109,7 @@ export const personalInfo = [
   {
     id: 10,
     title: 'Languages : ',
-    description: 'English',
+    description: 'Portuguese, English, ',
   },
 ];
 
