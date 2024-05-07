@@ -11,7 +11,7 @@ import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
 import Work1 from './src/assets/project-1.png';
 import Work2 from './src/assets/project-2.jpg';
-import Work3 from './src/assets/project-3.jpeg';
+import Work3 from './src/assets/project-3.png';
 import Work4 from './src/assets/project-4.jpeg';
 import Work5 from './src/assets/project-5.jpg';
 import Work6 from './src/assets/project-6.jpg';
@@ -266,13 +266,13 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
-    title: 'My First Portfolio',
+    title: 'Previous Portfolio',
     url: 'https://dev-jean-gomes.netlify.app',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'My First Portfolio',
+        desc: 'My First Portfolio Developed',
       },
       {
         icon: <FiUser />,
@@ -323,12 +323,12 @@ export const portfolio = [
   {
     id: 3,
     img: Work3,
-    title: 'Video Editing',
+    title: 'Landing Page',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Video',
+        desc: 'A Modern Landing Page With HTML and Tailwind CSS',
       },
       {
         icon: <FiUser />,
@@ -338,7 +338,7 @@ export const portfolio = [
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Premium',
+        desc: 'HTML and Tailwind CSS',
       },
       {
         icon: <FiExternalLink />,
