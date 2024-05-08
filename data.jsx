@@ -324,6 +324,7 @@ export const portfolio = [
     id: 3,
     img: Work3,
     title: 'Landing Page',
+    url: 'https://html-tailwind-responsive.vercel.app/',
     details: [
       {
         icon: <FiFileText />,
@@ -343,7 +344,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://html-tailwind-responsive.vercel.app/',
       },
     ],
   },
