@@ -296,6 +296,7 @@ export const portfolio = [
     id: 2,
     img: Work2,
     title: 'Website fantastic Animals',
+    url: 'https://animais-fantasticos-js.vercel.app',
     details: [
       {
         icon: <FiFileText />,
