@@ -10,7 +10,7 @@ import {
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
 import Work1 from './src/assets/project-1.png';
-import Work2 from './src/assets/project-2.jpg';
+import Work2 from './src/assets/project-2.png';
 import Work3 from './src/assets/project-3.png';
 import Work4 from './src/assets/project-4.jpeg';
 import Work5 from './src/assets/project-5.jpg';
@@ -295,7 +295,7 @@ export const portfolio = [
   {
     id: 2,
     img: Work2,
-    title: 'Website Design',
+    title: 'Website fantastic Animals',
     details: [
       {
         icon: <FiFileText />,
@@ -310,12 +310,12 @@ export const portfolio = [
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'React JS',
+        desc: 'HTML,CSS and JS',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://animais-fantasticos-js.vercel.app',
       },
     ],
   },
@@ -323,7 +323,7 @@ export const portfolio = [
   {
     id: 3,
     img: Work3,
-    title: 'Landing Page',
+    title: 'Landing Page Clinic',
     url: 'https://html-tailwind-responsive.vercel.app/',
     details: [
       {
