@@ -260,6 +260,13 @@ export const skills = [
     imgLogo: './React-icon.png',
     pSkills: 'Intermediate',
   },
+  {
+    id: 9,
+    title: 'Typescript JS',
+    percentage: 'Begginer',
+    imgLogo: './typescript-icon.png',
+    pSkills: 'Begginer',
+  },
 ];
 
 export const portfolio = [
@@ -301,12 +308,12 @@ export const portfolio = [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Website',
+        desc: 'Website created in the Origamida Javascript Complete course',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: '',
       },
       {
         icon: <FaCode />,
@@ -334,8 +341,8 @@ export const portfolio = [
       },
       {
         icon: <FiUser />,
-        title: ' : ',
-        desc: 'Dribble',
+        title: 'Client : ',
+        desc: '',
       },
       {
         icon: <FaCode />,
