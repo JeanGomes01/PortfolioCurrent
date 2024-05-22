@@ -1,5 +1,4 @@
-import React from 'react';
-
+import React, { useState } from 'react';
 import {
   FaEnvelopeOpen,
   FaPhoneSquareAlt,
@@ -8,12 +7,50 @@ import {
   FaGithub,
   FaWhatsapp,
 } from 'react-icons/fa';
-
 import { FiSend } from 'react-icons/fi';
-
 import './contact.css';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [subject, setSubject] = useState('');
+  const [message, setMessage] = useState('');
+
+  function sendEmail(event) {
+    event.preventDefault();
+    if (!name || !subject || !email || !message) {
+      alert('Por favor, preencha todos os campos');
+      return;
+    }
+    const templateParams = {
+      from_name: name,
+      the_subject: subject,
+      message: message,
+      email: email,
+    };
+
+    emailjs
+      .send(
+        'service_2kedwhb',
+        'template_7u576hn',
+        templateParams,
+        'lLWF6UKXVPh8qcCpG',
+      )
+      .then(
+        (response) => {
+          console.log('EMAIL ENVIADO !', response.status, response.text);
+          setName('');
+          setSubject('');
+          setEmail('');
+          setMessage('');
+        },
+        (err) => {
+          console.log('ERRO: ', err);
+        },
+      );
+  }
+
   return (
     <section className="contact section">
       <h2 className="section__title">
@@ -22,7 +59,7 @@ const Contact = () => {
 
       <div className="contact__container container grid">
         <div className="contact__data">
-          <h3 className="contact__title">Don't be Shy !'</h3>
+          <h3 className="contact__title">Don't be Shy !</h3>
 
           <p className="contact__description">
             Feel free to get in touch with me. I am always open to discussing
@@ -83,13 +120,15 @@ const Contact = () => {
           </div>
         </div>
 
-        <form className="contact__form">
+        <form className="contact__form" onSubmit={sendEmail}>
           <div className="form__input-group">
             <div className="form__input-div">
               <input
                 type="text"
                 className="form__control"
-                placeholder="Your Name"
+                placeholder="Type your Name"
+                onChange={(event) => setName(event.target.value)}
+                value={name}
               />
             </div>
 
@@ -97,23 +136,29 @@ const Contact = () => {
               <input
                 type="email"
                 className="form__control"
-                placeholder="Your Email"
+                placeholder="Type your Email"
+                onChange={(event) => setEmail(event.target.value)}
+                value={email}
               />
             </div>
 
             <div className="form__input-div">
               <input
-                type="email"
+                type="text"
                 className="form__control"
-                placeholder="Your Subject"
+                placeholder="Enter the Subject"
+                onChange={(event) => setSubject(event.target.value)}
+                value={subject}
               />
             </div>
           </div>
 
           <div className="form__input-div">
             <textarea
-              placeholder="Your Message"
+              placeholder="Write your message here..."
               className="form__control textarea"
+              onChange={(event) => setMessage(event.target.value)}
+              value={message}
             ></textarea>
           </div>
 
@@ -128,5 +173,4 @@ const Contact = () => {
     </section>
   );
 };
-
 export default Contact;
