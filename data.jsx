@@ -267,6 +267,13 @@ export const skills = [
     imgLogo: './typescript-icon.png',
     pSkills: 'Begginer',
   },
+  {
+    id: 10,
+    title: 'Angular',
+    percentage: 'Begginer',
+    imgLogo: './Angular-icon.png',
+    pSkills: 'Begginer',
+  },
 ];
 
 export const portfolio = [
