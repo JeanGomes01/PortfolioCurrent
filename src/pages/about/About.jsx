@@ -2,7 +2,7 @@ import React from 'react';
 import Info from '../../components/info';
 import Stats from '../../components/Stats';
 import { FaDownload } from 'react-icons/fa';
-import CV from '../../assets/Curriculo - Jean Laranjeira Gomes 2024.pdf';
+import CV from '../../assets/Curriculum - Jean Laranjeira Gomes 2024.pdf';
 import Skills from '../../components/Skills';
 import { resume } from '../../../data';
 import ResumeItem from '../../components/ResumeItem';
