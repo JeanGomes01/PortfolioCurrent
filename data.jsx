@@ -258,7 +258,7 @@ export const skills = [
     title: 'React Js',
     percentage: 'Begginer',
     imgLogo: './React-icon.png',
-    pSkills: 'Intermediate',
+    pSkills: 'Begginer',
   },
   {
     id: 9,

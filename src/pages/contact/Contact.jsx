@@ -39,7 +39,7 @@ const Contact = () => {
       )
       .then(
         (response) => {
-          console.log('EMAIL ENVIADO !', response.status, response.text);
+          alert('EMAIL ENVIADO !', response.status, response.text);
           setName('');
           setSubject('');
           setEmail('');
