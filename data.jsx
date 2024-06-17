@@ -1,31 +1,31 @@
 import {
+  FaBriefcase,
+  FaCode,
+  FaEnvelopeOpen,
+  FaFolderOpen,
+  FaGraduationCap,
   FaHome,
   FaUser,
-  FaFolderOpen,
-  FaEnvelopeOpen,
-  FaBriefcase,
-  FaGraduationCap,
-  FaCode,
 } from 'react-icons/fa';
-import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
+import { FiExternalLink, FiFileText, FiUser } from 'react-icons/fi';
 
 import Work1 from './src/assets/project-1.png';
 import Work2 from './src/assets/project-2.png';
 import Work3 from './src/assets/project-3.png';
-import Work4 from './src/assets/project-4.jpeg';
+import Work4 from './src/assets/project-4.png';
 import Work5 from './src/assets/project-5.jpg';
 import Work6 from './src/assets/project-6.jpg';
 
+import Theme4 from './src/assets/blue.png';
+import Theme3 from './src/assets/blueviolet.png';
+import Theme5 from './src/assets/goldenrod.png';
+import Theme9 from './src/assets/green.png';
+import Theme6 from './src/assets/magenta.png';
+import Theme8 from './src/assets/orange.png';
 import Theme1 from './src/assets/purple.png';
 import Theme2 from './src/assets/red.png';
-import Theme3 from './src/assets/blueviolet.png';
-import Theme4 from './src/assets/blue.png';
-import Theme5 from './src/assets/goldenrod.png';
-import Theme6 from './src/assets/magenta.png';
-import Theme7 from './src/assets/yellowgreen.png';
-import Theme8 from './src/assets/orange.png';
-import Theme9 from './src/assets/green.png';
 import Theme10 from './src/assets/yellow.png';
+import Theme7 from './src/assets/yellowgreen.png';
 
 export const links = [
   {
@@ -367,27 +367,28 @@ export const portfolio = [
   {
     id: 4,
     img: Work4,
-    title: 'Video Editing',
+    title: 'To-do List',
+    url: 'https://to-do-list-angular-phi.vercel.app/',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Video',
+        desc: 'A project simple to-do list for practice with Angular 18+',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: '',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Premium',
+        desc: 'Typescript',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://to-do-list-angular-phi.vercel.app/',
       },
     ],
   },
