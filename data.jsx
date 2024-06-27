@@ -13,7 +13,7 @@ import Work1 from './src/assets/project-1.png';
 import Work2 from './src/assets/project-2.png';
 import Work3 from './src/assets/project-3.png';
 import Work4 from './src/assets/project-4.png';
-import Work5 from './src/assets/project-5.jpg';
+import Work5 from './src/assets/project-5.png';
 import Work6 from './src/assets/project-6.jpg';
 
 import Theme4 from './src/assets/blue.png';
@@ -396,11 +396,12 @@ export const portfolio = [
   {
     id: 5,
     img: Work5,
-    title: 'Landing Page',
+    title: 'Ignite Feed',
+    url: 'https://project-ignite-feed-ts.vercel.app/',
     details: [
       {
         title: 'Project : ',
-        desc: 'Website',
+        desc: 'A simple feed for learn React with Typescript of Rockseat',
       },
       {
         title: 'Client : ',
@@ -408,11 +409,11 @@ export const portfolio = [
       },
       {
         title: 'Language : ',
-        desc: 'React JS, Node JS',
+        desc: 'Typescript',
       },
       {
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://project-ignite-feed-ts.vercel.app/',
       },
     ],
   },
