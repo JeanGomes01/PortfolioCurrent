@@ -34,9 +34,6 @@ Principais tecnologias que utilizei para desenvolver esta aplicação
 - [React-Router-DOM](https://reactrouter.com/en/main)
 - [EmailJS](https://www.emailjs.com/docs/sdk/installation/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
 ## Guia de inicialização
 
 Para instalar e configurar uma cópia local, siga estas etapas simples:
