@@ -1,12 +1,10 @@
-import React from 'react';
-import Info from '../../components/info';
-import Stats from '../../components/Stats';
-import { FaDownload } from 'react-icons/fa';
-import CV from '../../assets/Curriculum - Jean Laranjeira Gomes 2024.pdf';
-import Skills from '../../components/Skills';
-import { resume } from '../../../data';
-import ResumeItem from '../../components/ResumeItem';
-import './about.css';
+import React from "react";
+import { resume } from "../../../data";
+import Info from "../../components/info";
+import ResumeItem from "../../components/ResumeItem";
+import Skills from "../../components/Skills";
+import Stats from "../../components/Stats";
+import "./about.css";
 
 const About = () => {
   return (
@@ -22,13 +20,6 @@ const About = () => {
             <ul className="info__list grid">
               <Info />
             </ul>
-
-            <a href={CV} download="" className="button">
-              Download CV
-              <span className="button__icon">
-                <FaDownload />
-              </span>
-            </a>
           </div>
 
           <div className="stats grid">
@@ -55,14 +46,14 @@ const About = () => {
         <div className="resume__container grid">
           <div className="resume__data">
             {resume.map((val) => {
-              if (val.category === 'experience') {
+              if (val.category === "experience") {
                 return <ResumeItem key={val.id} {...val} />;
               }
             })}
           </div>
           <div className="resume__data">
             {resume.map((val) => {
-              if (val.category === 'education') {
+              if (val.category === "education") {
                 return <ResumeItem key={val.id} {...val} />;
               }
             })}
