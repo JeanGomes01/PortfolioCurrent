@@ -84,13 +84,23 @@
   .container {
     max-width: 720px;
   }
-  .home {
-    padding: 20px;
-    grid-template-columns: 5fr 7f;
+  .home__img {
+    width: 100%;
   }
   .home__data {
+    text-align: center;
     padding-right: 0;
   }
+  .home__title::before {
+    margin-left: 2rem;
+  }
+  .home__title span {
+    margin: 0 auto;
+  }
+  .button {
+    width: 80%;
+  }
+
   .section {
     padding-block: 50px;
   }
@@ -135,39 +145,36 @@
 }
 
 @media screen and (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+    max-width: 540px;
+  }
   .home {
     grid-template-columns: 1fr;
     justify-content: center;
-    row-gap: 10px;
-  }
-
-  .color__block {
-    display: none;
+    row-gap: 20px;
   }
 
   .home__img {
-    width: 270px;
-    height: 270px;
-    border-radius: 50%;
-    margin-top: auto;
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
   }
 
   .home__content {
-    max-width: 500px;
+    width: 100%;
     text-align: center;
     margin-bottom: auto;
   }
   .home__title {
     padding-left: 0;
   }
-  .home__tile::before {
-    all: unset;
-  }
   .home__title span {
     display: block;
   }
-  .container {
-    max-width: 540px;
+
+  .color__block {
+    display: none;
   }
 
   .portfolio__container {
@@ -185,6 +192,10 @@
 }
 
 @media screen and (max-width: 576px) {
+  .home__title::before {
+    all: unset;
+  }
+
   .nav__toggle {
     top: 20px;
     right: 15px;
@@ -203,7 +214,7 @@
     height: 100%;
   }
   .portfolio__container {
-    width: 50%;
+    width: 70%;
     height: auto;
     display: flex;
     justify-content: space-evenly;
@@ -246,9 +257,6 @@
 }
 
 @media screen and (max-width: 450px) {
-  /* .home__img {
-    display: none;
-  } */
   .home__content {
     margin-block: auto;
     text-align: left;
@@ -257,8 +265,8 @@
   .home__title {
     font-size: var(--h1-font-size);
   }
-  .home__title::before {
-    display: none;
+  .home__title span {
+    margin-top: 2rem;
   }
   .home__description {
     text-align: justify;
@@ -274,7 +282,7 @@
 
 @media screen and (max-width: 360px) {
   .home__title span {
-    display: inline;
+    display: block;
   }
   .about__info {
     grid-template-columns: 1fr;
