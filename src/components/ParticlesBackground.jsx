@@ -66,14 +66,14 @@ const ParticlesBackground = (props) => {
             default: "bounce",
           },
           random: true,
-          speed: 1,
+          speed: 2,
           straight: false,
         },
         number: {
           density: {
             enable: true,
           },
-          value: 150,
+          value: 550,
         },
         opacity: {
           value: 1.0,

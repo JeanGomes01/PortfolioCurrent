@@ -9,15 +9,12 @@ import "./home.css";
 const Home = () => {
   return (
     <section className="home section grid">
-      <div>
-        <ParticlesBackground id="particules" />
-      </div>
       <img src={Profile} alt="" className="home__img" />
       <div className="home__content">
+        <ParticlesBackground id="particules" />
         <div className="home__data">
           <h1 className="home__title">
-            <p>Hi, I am</p>
-            <p> Jean Gomes</p>
+            <p>Hi, I am Jean Gomes</p>
             <span>Software Developer</span>
           </h1>
 
@@ -28,13 +25,13 @@ const Home = () => {
             me.
           </p>
 
-          <Link to="./about" className="button" id="about">
+          <Link to="./about" className="button" id="about-button">
             More About Me{" "}
             <span className="button__icon">
               <FaArrowRight />
             </span>
           </Link>
-          <a href={CV} download="" className="button" id="download">
+          <a href={CV} download="" className="button" id="download-button">
             Download CV
             <span className="button__icon">
               <FaDownload />
