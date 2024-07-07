@@ -3,16 +3,21 @@ import { FaArrowRight, FaDownload } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import CV from "../../assets/Curriculum - Jean Laranjeira Gomes 2024.pdf";
 import Profile from "../../assets/home.png";
+import ParticlesBackground from "../../components/ParticlesBackground";
 import "./home.css";
 
 const Home = () => {
   return (
     <section className="home section grid">
+      <div>
+        <ParticlesBackground id="particules" />
+      </div>
       <img src={Profile} alt="" className="home__img" />
       <div className="home__content">
         <div className="home__data">
           <h1 className="home__title">
-            <p>Hi, I am Jean Gomes</p>
+            <p>Hi, I am</p>
+            <p> Jean Gomes</p>
             <span>Software Developer</span>
           </h1>
 
@@ -23,13 +28,13 @@ const Home = () => {
             me.
           </p>
 
-          <Link to="./about" className="button">
+          <Link to="./about" className="button" id="about">
             More About Me{" "}
             <span className="button__icon">
               <FaArrowRight />
             </span>
           </Link>
-          <a href={CV} download="" className="button">
+          <a href={CV} download="" className="button" id="download">
             Download CV
             <span className="button__icon">
               <FaDownload />
