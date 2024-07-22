@@ -30,8 +30,8 @@
   }
 
   .progress__circle {
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
   }
 
   .skills__title {
@@ -111,7 +111,7 @@
   }
 
   .skills__container {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
   }
   .resume__container {
     row-gap: 45px;
