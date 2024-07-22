@@ -6,147 +6,147 @@ import {
   FaGraduationCap,
   FaHome,
   FaUser,
-} from 'react-icons/fa';
-import { FiExternalLink, FiFileText, FiUser } from 'react-icons/fi';
+} from "react-icons/fa";
+import { FiExternalLink, FiFileText, FiUser } from "react-icons/fi";
 
-import Work1 from './src/assets/project-1.png';
-import Work2 from './src/assets/project-2.png';
-import Work3 from './src/assets/project-3.png';
-import Work4 from './src/assets/project-4.png';
-import Work5 from './src/assets/project-5.png';
-import Work6 from './src/assets/project-6.jpg';
+import Work1 from "./src/assets/project-1.png";
+import Work2 from "./src/assets/project-2.png";
+import Work3 from "./src/assets/project-3.png";
+import Work4 from "./src/assets/project-4.png";
+import Work5 from "./src/assets/project-5.png";
+import Work6 from "./src/assets/project-6.jpg";
 
-import Theme4 from './src/assets/blue.png';
-import Theme3 from './src/assets/blueviolet.png';
-import Theme5 from './src/assets/goldenrod.png';
-import Theme9 from './src/assets/green.png';
-import Theme6 from './src/assets/magenta.png';
-import Theme8 from './src/assets/orange.png';
-import Theme1 from './src/assets/purple.png';
-import Theme2 from './src/assets/red.png';
-import Theme10 from './src/assets/yellow.png';
-import Theme7 from './src/assets/yellowgreen.png';
+import Theme4 from "./src/assets/blue.png";
+import Theme3 from "./src/assets/blueviolet.png";
+import Theme5 from "./src/assets/goldenrod.png";
+import Theme9 from "./src/assets/green.png";
+import Theme6 from "./src/assets/magenta.png";
+import Theme8 from "./src/assets/orange.png";
+import Theme1 from "./src/assets/purple.png";
+import Theme2 from "./src/assets/red.png";
+import Theme10 from "./src/assets/yellow.png";
+import Theme7 from "./src/assets/yellowgreen.png";
 
 export const links = [
   {
     id: 1,
-    name: 'Home',
+    name: "Home",
     icon: <FaHome className="nav__icon" />,
-    path: '/',
+    path: "/",
   },
 
   {
     id: 2,
-    name: 'About',
+    name: "About",
     icon: <FaUser className="nav__icon" />,
-    path: '/about',
+    path: "/about",
   },
 
   {
     id: 3,
-    name: 'Portfolio',
+    name: "Portfolio",
     icon: <FaFolderOpen className="nav__icon" />,
-    path: '/portfolio',
+    path: "/portfolio",
   },
 
   {
     id: 4,
-    name: 'Contact',
+    name: "Contact",
     icon: <FaEnvelopeOpen className="nav__icon" />,
-    path: '/contact',
+    path: "/contact",
   },
 ];
 
 export const personalInfo = [
   {
     id: 1,
-    title: 'First Name : ',
-    description: 'Jean',
+    title: "First Name : ",
+    description: "Jean",
   },
 
   {
     id: 2,
-    title: 'Last Name : ',
-    description: 'Gomes',
+    title: "Last Name : ",
+    description: "Gomes",
   },
 
   {
     id: 3,
-    title: 'Age : ',
-    description: '22 Years',
+    title: "Age : ",
+    description: "22 Years",
   },
 
   {
     id: 4,
-    title: 'Nationality : ',
-    description: 'Brazilian',
+    title: "Nationality : ",
+    description: "Brazilian",
   },
 
   {
     id: 5,
-    title: 'Freelance : ',
-    description: 'Available',
+    title: "Freelance : ",
+    description: "Available",
   },
 
   {
     id: 7,
-    title: 'Phone : ',
-    description: '+5521975571953',
+    title: "Phone : ",
+    description: "+5521975571953",
   },
 
   {
     id: 8,
-    title: 'Email : ',
-    description: 'jeangomes1567@gmail.com',
+    title: "Email : ",
+    description: "jeangomes1567@gmail.com",
   },
 
   {
     id: 9,
-    title: 'Hobbies : ',
-    description: 'Watch Animes and series, Assemble puzzles, read books',
+    title: "Hobbies : ",
+    description: "Watch Animes and series, Assemble puzzles, read books",
   },
 
   {
     id: 10,
-    title: 'Languages : ',
-    description: 'Portuguese, English, ',
+    title: "Languages : ",
+    description: "Portuguese, English, ",
   },
 ];
 
 export const stats = [
   {
     id: 1,
-    no: '03+',
-    title: 'Years of <br /> Experience',
+    no: "03+",
+    title: "Years of <br /> Experience",
   },
 
   {
     id: 2,
-    no: '04+',
-    title: 'Completed <br /> Projects',
+    no: "04+",
+    title: "Completed <br /> Projects",
   },
 
   {
     id: 3,
-    no: '04+',
-    title: 'Happy <br /> Customers',
+    no: "04+",
+    title: "Happy <br /> Customers",
   },
 
   {
     id: 4,
-    no: '04+',
-    title: ' Certificates <br />',
+    no: "04+",
+    title: " Certificates <br />",
   },
 ];
 
 export const resume = [
   {
     id: 1,
-    category: 'experience',
+    category: "experience",
     icon: <FaBriefcase />,
-    year: '2021 - 2024',
-    title: 'Data  IT Project Assistant at  <span> EY (Ernst Young) </span>',
-    desc: 'I worked for almost 3 years as an IT project assistant with data analysis using ETL process with data and database manager such as SQL Server',
+    year: "2021 - 2024",
+    title: "Data  IT Project Assistant at  <span> EY (Ernst Young) </span>",
+    desc: "I worked for almost 3 years as an IT project assistant with data analysis using ETL process with data and database manager such as SQL Server",
   },
 
   /*{
@@ -169,110 +169,91 @@ export const resume = [
 
   {
     id: 4,
-    category: 'education',
+    category: "education",
     icon: <FaGraduationCap />,
-    year: '2020',
-    title: 'Full Stack Programming <span> Recode Pro </span>',
-    desc: '',
+    year: "2020",
+    title: "Full Stack Programming <span> Recode Pro </span>",
+    desc: "",
   },
 
   {
     id: 5,
-    category: 'education',
+    category: "education",
     icon: <FaGraduationCap />,
-    year: '2021',
+    year: "2021",
     title:
-      'Computer technician <span> - Institute Federal of Education, Science and Technology of Rio de Janeiro (IFRJ) </span>',
-    desc: '',
+      "Computer technician <span> - Institute Federal of Education, Science and Technology of Rio de Janeiro (IFRJ) </span>",
+    desc: "",
   },
 
   {
     id: 6,
-    category: 'education',
+    category: "education",
     icon: <FaGraduationCap />,
-    year: '2024',
-    title: 'Systems Development Analysis <span> Estacio University </span>',
-    desc: '',
+    year: "2024",
+    title: "Systems Development Analysis <span> Estacio University </span>",
+    desc: "",
   },
 ];
 
 export const skills = [
   {
     id: 1,
-    title: 'Html',
-    percentage: '90',
-    imgLogo: './html-icon.png',
-    pSkills: 'Advanced',
+    title: "Javascript",
+    imgLogo: "./js-icon.png",
   },
 
   {
     id: 2,
-    title: 'Css',
-    percentage: '85',
-    imgLogo: './css-icon.png',
-    pSkills: 'Advanced',
+    title: "Typescript",
+    imgLogo: "./typescript-icon.png",
   },
 
   {
     id: 3,
-    title: 'Javascript',
-    percentage: '85',
-    imgLogo: './js-icon.png',
-    pSkills: 'Advanced',
+    title: "Java",
+    percentage: "55",
+    imgLogo: "./java_language.png",
   },
 
   {
     id: 4,
-    title: 'Java',
-    percentage: '55',
-    imgLogo: './java_language.png',
-    pSkills: 'Begginer',
+    title: "Node JS",
+    imgLogo: "./node-js-icon.png ",
   },
 
   {
     id: 5,
-    title: 'Python',
-    percentage: '25',
-    imgLogo: './Python-icon.png ',
-    pSkills: 'Begginer',
+    title: "Angular",
+    imgLogo: "./Angular-icon.png",
   },
-
   {
     id: 6,
-    title: 'Node Js',
-    percentage: 'Begginer',
-    imgLogo: './node-js-icon.png',
-    pSkills: 'Begginer',
+    title: "React JS",
+    imgLogo: "./React-icon.png",
   },
 
   {
     id: 7,
-    title: 'SQL',
-    percentage: '65',
-    imgLogo: './sql-icon.png',
-    pSkills: 'Intermediate',
+    title: "SQL",
+    imgLogo: "./sql-icon.png",
+  },
+  {
+    id: 5,
+    title: "Python",
+    percentage: "25",
+    imgLogo: "./Python-icon.png ",
   },
 
   {
     id: 8,
-    title: 'React Js',
-    percentage: 'Begginer',
-    imgLogo: './React-icon.png',
-    pSkills: 'Begginer',
-  },
-  {
-    id: 9,
-    title: 'Typescript JS',
-    percentage: 'Begginer',
-    imgLogo: './typescript-icon.png',
-    pSkills: 'Begginer',
+    title: "Git",
+    imgLogo: "./git-icon.png",
   },
   {
     id: 10,
-    title: 'Angular',
-    percentage: 'Begginer',
-    imgLogo: './Angular-icon.png',
-    pSkills: 'Begginer',
+    title: "Figma",
+    imgLogo: "./figma-icon.png",
   },
 ];
 
@@ -280,28 +261,28 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
-    title: 'Previous Portfolio',
-    url: 'https://dev-jean-gomes.netlify.app',
+    title: "Previous Portfolio",
+    url: "https://dev-jean-gomes.netlify.app",
     details: [
       {
         icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'My First Portfolio Developed',
+        title: "Project : ",
+        desc: "My First Portfolio Developed",
       },
       {
         icon: <FiUser />,
-        title: 'Client : ',
-        desc: '',
+        title: "Client : ",
+        desc: "",
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'HTML, CSS e JS',
+        title: "Language : ",
+        desc: "HTML, CSS e JS",
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'https://dev-jean-gomes.netlify.app',
+        title: "Preview : ",
+        desc: "https://dev-jean-gomes.netlify.app",
       },
     ],
   },
@@ -309,28 +290,28 @@ export const portfolio = [
   {
     id: 2,
     img: Work2,
-    title: 'Website fantastic Animals',
-    url: 'https://animais-fantasticos-js.vercel.app',
+    title: "Website fantastic Animals",
+    url: "https://animais-fantasticos-js.vercel.app",
     details: [
       {
         icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Website created in the Origamida Javascript Complete course',
+        title: "Project : ",
+        desc: "Website created in the Origamida Javascript Complete course",
       },
       {
         icon: <FiUser />,
-        title: 'Client : ',
-        desc: '',
+        title: "Client : ",
+        desc: "",
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'HTML,CSS and JS',
+        title: "Language : ",
+        desc: "HTML,CSS and JS",
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'https://animais-fantasticos-js.vercel.app',
+        title: "Preview : ",
+        desc: "https://animais-fantasticos-js.vercel.app",
       },
     ],
   },
@@ -338,28 +319,28 @@ export const portfolio = [
   {
     id: 3,
     img: Work3,
-    title: 'Landing Page Clinic',
-    url: 'https://html-tailwind-responsive.vercel.app/',
+    title: "Landing Page Clinic",
+    url: "https://html-tailwind-responsive.vercel.app/",
     details: [
       {
         icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'A Modern Landing Page With HTML and Tailwind CSS',
+        title: "Project : ",
+        desc: "A Modern Landing Page With HTML and Tailwind CSS",
       },
       {
         icon: <FiUser />,
-        title: 'Client : ',
-        desc: '',
+        title: "Client : ",
+        desc: "",
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'HTML and Tailwind CSS',
+        title: "Language : ",
+        desc: "HTML and Tailwind CSS",
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'https://html-tailwind-responsive.vercel.app/',
+        title: "Preview : ",
+        desc: "https://html-tailwind-responsive.vercel.app/",
       },
     ],
   },
@@ -367,28 +348,28 @@ export const portfolio = [
   {
     id: 4,
     img: Work4,
-    title: 'To-do List',
-    url: 'https://to-do-list-angular-phi.vercel.app/',
+    title: "To-do List",
+    url: "https://to-do-list-angular-phi.vercel.app/",
     details: [
       {
         icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'A project simple to-do list for practice with Angular 18+',
+        title: "Project : ",
+        desc: "A project simple to-do list for practice with Angular 18+",
       },
       {
         icon: <FiUser />,
-        title: 'Client : ',
-        desc: '',
+        title: "Client : ",
+        desc: "",
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Typescript',
+        title: "Language : ",
+        desc: "Typescript",
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'https://to-do-list-angular-phi.vercel.app/',
+        title: "Preview : ",
+        desc: "https://to-do-list-angular-phi.vercel.app/",
       },
     ],
   },
@@ -396,24 +377,24 @@ export const portfolio = [
   {
     id: 5,
     img: Work5,
-    title: 'Ignite Feed',
-    url: 'https://project-ignite-feed-ts.vercel.app/',
+    title: "Ignite Feed",
+    url: "https://project-ignite-feed-ts.vercel.app/",
     details: [
       {
-        title: 'Project : ',
-        desc: 'A simple feed for learn React with Typescript of Rockseat',
+        title: "Project : ",
+        desc: "A simple feed for learn React with Typescript of Rockseat",
       },
       {
-        title: 'Client : ',
-        desc: 'Dribble',
+        title: "Client : ",
+        desc: "Dribble",
       },
       {
-        title: 'Language : ',
-        desc: 'Typescript',
+        title: "Language : ",
+        desc: "Typescript",
       },
       {
-        title: 'Preview : ',
-        desc: 'https://project-ignite-feed-ts.vercel.app/',
+        title: "Preview : ",
+        desc: "https://project-ignite-feed-ts.vercel.app/",
       },
     ],
   },
@@ -421,27 +402,27 @@ export const portfolio = [
   {
     id: 6,
     img: Work6,
-    title: 'Photo Editing',
+    title: "Photo Editing",
     details: [
       {
         icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Photo',
+        title: "Project : ",
+        desc: "Photo",
       },
       {
         icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        title: "Client : ",
+        desc: "Dribble",
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        title: "Language : ",
+        desc: "Adobe Photoshop",
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dibble.com',
+        title: "Preview : ",
+        desc: "www.dibble.com",
       },
     ],
   },
@@ -451,60 +432,60 @@ export const themes = [
   {
     id: 1,
     img: Theme1,
-    color: 'hsl(252, 35%, 51%)',
+    color: "hsl(252, 35%, 51%)",
   },
 
   {
     id: 2,
     img: Theme2,
-    color: 'hsl(4, 93%, 54%)',
+    color: "hsl(4, 93%, 54%)",
   },
 
   {
     id: 3,
     img: Theme3,
-    color: 'hsl(271, 76%, 53%)',
+    color: "hsl(271, 76%, 53%)",
   },
 
   {
     id: 4,
     img: Theme4,
-    color: 'hsl(225, 73%, 57%)',
+    color: "hsl(225, 73%, 57%)",
   },
 
   {
     id: 5,
     img: Theme5,
-    color: 'hsl(43, 74%, 49%)',
+    color: "hsl(43, 74%, 49%)",
   },
 
   {
     id: 6,
     img: Theme6,
-    color: 'hsl(339, 81%, 66%)',
+    color: "hsl(339, 81%, 66%)",
   },
 
   {
     id: 7,
     img: Theme7,
-    color: 'hsl(80, 61%, 50%)',
+    color: "hsl(80, 61%, 50%)",
   },
 
   {
     id: 8,
     img: Theme8,
-    color: 'hsl(19, 96%, 52%)',
+    color: "hsl(19, 96%, 52%)",
   },
 
   {
     id: 9,
     img: Theme9,
-    color: 'hsl(88, 65%, 43%)',
+    color: "hsl(88, 65%, 43%)",
   },
 
   {
     id: 10,
     img: Theme10,
-    color: 'hsl(42, 100%, 50%)',
+    color: "hsl(42, 100%, 50%)",
   },
 ];
