@@ -67,7 +67,7 @@ export const certificatesItems = [
     url: "https://recodepro.org.br/",
     description:
       "Certificado de conclusão do curso de Programação Full Stack na Recode Pro.",
-    img: "src/assets/Programacao-full-stack.png",
+    img: "./src/assets/project-1.png",
   },
   {
     id: 2,
