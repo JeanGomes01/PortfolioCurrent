@@ -83,7 +83,6 @@ export const certificatesItems = [
     subtitle: "Alteryx Badge",
     institution: "Alteryx",
     url: "https://https://community.alteryx.com/",
-    institution: "Recode Pro",
     description:
       "Credencial obtida através do exame de certificação da ferramenta  alteryx Desginer",
     img: "./src/assets/data-analyst/Alteryx_Foundational_Micro_Credential_Badge.png",
