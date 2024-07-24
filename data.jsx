@@ -82,10 +82,10 @@ export const certificatesItems = [
     id: 3,
     subtitle: "Alteryx Badge",
     institution: "Alteryx",
-    url: "https://https://community.alteryx.com/",
+    url: "https://community.alteryx.com/",
     description:
       "Credencial obtida através do exame de certificação da ferramenta  alteryx Desginer",
-    img: "./src/assets/data-analyst/Alteryx_Foundational_Micro_Credential_Badge.png",
+    img: "./src/assets/Alteryx_Foundational_Micro_Credential_Badge.png",
   },
   {
     id: 4,
@@ -94,7 +94,7 @@ export const certificatesItems = [
     url: "https://www.udemy.com/course/alteryx-bootcamp/",
     description:
       "Certificado de conclusão do curso do Alteryx que ensina como usar a ferramenta para tratativa e análise de dados.",
-    img: "./src/assets/data-analyst/Alteryx-udemy-bootcamp.png",
+    img: "./src/assets/Alteryx-udemy-bootcamp.png",
   },
 ];
 
