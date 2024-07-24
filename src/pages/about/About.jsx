@@ -1,5 +1,5 @@
 import React from "react";
-import { certificatesItems, resume } from "../../../data";
+import { certificatesItems } from "../../../data";
 import Certificates from "../../components/Certificates";
 import ResumeItem from "../../components/ResumeItem";
 import Skills from "../../components/Skills";
@@ -21,15 +21,6 @@ const About = () => {
               return <Certificates key={item.id} {...item} />;
             })}
           </div>
-
-          {/*
-            <div className="about__info">
-              <h3 className="section__subtitle">Personal Infos</h3>
-              <ul className="info__list grid">
-                <Info />
-              </ul>
-            </div>
-          */}
 
           <div className="stats grid">
             <Stats />
