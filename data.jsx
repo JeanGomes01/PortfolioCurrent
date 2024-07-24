@@ -9,6 +9,7 @@ import {
 } from "react-icons/fa";
 import { FiExternalLink, FiFileText, FiUser } from "react-icons/fi";
 
+/*Projects*/
 import Work1 from "./src/assets/project-1.png";
 import Work2 from "./src/assets/project-2.png";
 import Work3 from "./src/assets/project-3.png";
@@ -16,6 +17,7 @@ import Work4 from "./src/assets/project-4.png";
 import Work5 from "./src/assets/project-5.png";
 import Work6 from "./src/assets/project-6.jpg";
 
+/*Themes */
 import Theme4 from "./src/assets/blue.png";
 import Theme3 from "./src/assets/blueviolet.png";
 import Theme5 from "./src/assets/goldenrod.png";
@@ -54,6 +56,46 @@ export const links = [
     name: "Contact",
     icon: <FaEnvelopeOpen className="nav__icon" />,
     path: "/contact",
+  },
+];
+
+export const certificatesItems = [
+  {
+    id: 1,
+    subtitle: "Programação Full Stack ",
+    institution: "Recode Pro",
+    url: "https://recodepro.org.br/",
+    description:
+      "Certificado de conclusão do curso de Programação Full Stack na Recode Pro.",
+    img: "./src/assets/Programacao-full-stack.png",
+  },
+  {
+    id: 2,
+    subtitle: "Javascript Completo ES6",
+    institution: "Origamid",
+    url: "https://www.origamid.com/",
+    description:
+      "Certificado de conclusão da formação de Javascript Completo pela plataforma da Origamid.",
+    img: "./src/assets/Javascript-Completo-ES6.png",
+  },
+  {
+    id: 3,
+    subtitle: "Alteryx Badge",
+    institution: "Alteryx",
+    url: "https://https://community.alteryx.com/",
+    institution: "Recode Pro",
+    description:
+      "Credencial obtida através do exame de certificação da ferramenta  alteryx Desginer",
+    img: "./src/assets/data-analyst/Alteryx_Foundational_Micro_Credential_Badge.png",
+  },
+  {
+    id: 4,
+    subtitle: "Alteryx Bootcamp ",
+    institution: "Udemy",
+    url: "https://www.udemy.com/course/alteryx-bootcamp/",
+    description:
+      "Certificado de conclusão do curso do Alteryx que ensina como usar a ferramenta para tratativa e análise de dados.",
+    img: "./src/assets/data-analyst/Alteryx-udemy-bootcamp.png",
   },
 ];
 

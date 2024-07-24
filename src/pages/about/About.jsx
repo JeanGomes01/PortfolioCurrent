@@ -1,6 +1,6 @@
 import React from "react";
-import { resume } from "../../../data";
-import Info from "../../components/info";
+import { certificatesItems, resume } from "../../../data";
+import Certificates from "../../components/Certificates";
 import ResumeItem from "../../components/ResumeItem";
 import Skills from "../../components/Skills";
 import Stats from "../../components/Stats";
@@ -15,12 +15,21 @@ const About = () => {
         </h2>
 
         <div className="about__container grid">
-          <div className="about__info">
-            <h3 className="section__subtitle">Personal Infos</h3>
-            <ul className="info__list grid">
-              <Info />
-            </ul>
+          <h2 className="certificates__title">Certificates</h2>
+          <div className="certificates grid">
+            {certificatesItems.map((item) => {
+              return <Certificates key={item.id} {...item} />;
+            })}
           </div>
+
+          {/*
+            <div className="about__info">
+              <h3 className="section__subtitle">Personal Infos</h3>
+              <ul className="info__list grid">
+                <Info />
+              </ul>
+            </div>
+          */}
 
           <div className="stats grid">
             <Stats />
