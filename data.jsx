@@ -97,7 +97,7 @@ export const certificates = [
     img: certification4,
     subtitle: "Alteryx Bootcamp ",
     institution: "Udemy",
-    url: "https://www.udemy.com/course/alteryx-bootcamp/",
+    url: "https://www.udemy.com",
     description:
       "Certificado de conclusão do curso do Alteryx que ensina como usar a ferramenta para tratativa e análise de dados.",
   },

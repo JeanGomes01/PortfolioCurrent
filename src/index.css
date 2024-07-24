@@ -249,6 +249,10 @@
   .nav__name {
     font-size: var(--h3-font-size);
   }
+  .certificates__info {
+    font-size: small;
+  }
+
   .skills__container {
     grid-template-columns: repeat(2, 1fr);
     height: 100%;
