@@ -1,5 +1,5 @@
 import React from "react";
-import { certificates, resume } from "../../../data";
+import { resume } from "../../../data";
 import Certificates from "../../components/Certificates";
 import ResumeItem from "../../components/ResumeItem";
 import Skills from "../../components/Skills";
@@ -17,9 +17,7 @@ const About = () => {
         <div className="about__container grid">
           <h2 className="certificates__title">Certificates</h2>
           <div className="certificates grid">
-            {certificates.map((item) => {
-              return <Certificates key={item.id} {...item} />;
-            })}
+            <Certificates />
           </div>
 
           {/*

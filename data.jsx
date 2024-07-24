@@ -29,6 +29,11 @@ import Theme2 from "./src/assets/red.png";
 import Theme10 from "./src/assets/yellow.png";
 import Theme7 from "./src/assets/yellowgreen.png";
 
+import certification4 from "./src/assets/Alteryx-udemy-bootcamp.png";
+import certification3 from "./src/assets/Alteryx_Foundational_Micro_Credential_Badge.png";
+import certification2 from "./src/assets/Javascript-Completo-ES6.png";
+import certification1 from "./src/assets/Programacao-full-stack.png";
+
 export const links = [
   {
     id: 1,
@@ -62,39 +67,39 @@ export const links = [
 export const certificates = [
   {
     id: 1,
+    img: certification1,
     subtitle: "Programação Full Stack ",
     institution: "Recode Pro",
     url: "https://recodepro.org.br/",
     description:
       "Certificado de conclusão do curso de Programação Full Stack na Recode Pro.",
-    img: "src/assets/project-1.png",
   },
   {
     id: 2,
+    img: certification2,
     subtitle: "Javascript Completo ES6",
     institution: "Origamid",
     url: "https://www.origamid.com/",
     description:
       "Certificado de conclusão da formação de Javascript Completo pela plataforma da Origamid.",
-    img: "/assets/project-1.png",
   },
   {
     id: 3,
+    img: certification3,
     subtitle: "Alteryx Badge",
     institution: "Alteryx",
     url: "https://community.alteryx.com/",
     description:
       "Credencial obtida através do exame de certificação da ferramenta  alteryx Desginer",
-    img: "src/assets/project-1.png",
   },
   {
     id: 4,
+    img: certification4,
     subtitle: "Alteryx Bootcamp ",
     institution: "Udemy",
     url: "https://www.udemy.com/course/alteryx-bootcamp/",
     description:
       "Certificado de conclusão do curso do Alteryx que ensina como usar a ferramenta para tratativa e análise de dados.",
-    img: "/assets/project-1.png",
   },
 ];
 
