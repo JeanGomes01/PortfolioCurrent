@@ -3,7 +3,9 @@ import React from "react";
 const Certificates = ({ img, subtitle, description, institution, url }) => {
   return (
     <div className="certificates__item">
-      <img src={img} alt="" className="certificates__img" />
+      <div className="certificates__img">
+        <img src={img} alt="" />
+      </div>
 
       <div className="certificates__info">
         <h3 className="certificates__subtitle">{subtitle}</h3>
