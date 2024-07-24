@@ -1,4 +1,5 @@
 import React from "react";
+import { certificates } from "../../data";
 
 const Certificates = ({ img, subtitle, description, institution, url }) => {
   return (

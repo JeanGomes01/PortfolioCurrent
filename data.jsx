@@ -67,7 +67,7 @@ export const certificates = [
     url: "https://recodepro.org.br/",
     description:
       "Certificado de conclusão do curso de Programação Full Stack na Recode Pro.",
-    img: "/assets/Programacao-full-stack.png",
+    img: "src/assets/project-1.png",
   },
   {
     id: 2,
@@ -76,7 +76,7 @@ export const certificates = [
     url: "https://www.origamid.com/",
     description:
       "Certificado de conclusão da formação de Javascript Completo pela plataforma da Origamid.",
-    img: "/assets/Javascript-Completo-ES6.png",
+    img: "/assets/project-1.png",
   },
   {
     id: 3,
@@ -85,7 +85,7 @@ export const certificates = [
     url: "https://community.alteryx.com/",
     description:
       "Credencial obtida através do exame de certificação da ferramenta  alteryx Desginer",
-    img: "/assets/Alteryx_Foundational_Micro_Credential_Badge.png",
+    img: "src/assets/project-1.png",
   },
   {
     id: 4,
@@ -94,7 +94,7 @@ export const certificates = [
     url: "https://www.udemy.com/course/alteryx-bootcamp/",
     description:
       "Certificado de conclusão do curso do Alteryx que ensina como usar a ferramenta para tratativa e análise de dados.",
-    img: "/assets/Alteryx-udemy-bootcamp.png",
+    img: "/assets/project-1.png",
   },
 ];
 
