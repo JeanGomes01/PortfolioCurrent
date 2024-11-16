@@ -29,8 +29,10 @@ const About = () => {
             </div>
           */}
 
-          <div className="stats grid">
-            <Stats />
+          <div className="stats__container">
+            <div className="stats grid">
+              <Stats />
+            </div>
           </div>
         </div>
       </section>
