@@ -194,6 +194,14 @@ export const resume = [
     title: "Data  IT Project Assistant at  <span> EY (Ernst Young) </span>",
     desc: "I worked for almost 3 years as an IT project assistant with data analysis using ETL process with data and database manager such as SQL Server",
   },
+  {
+    id: 2,
+    category: "experience",
+    icon: <FaBriefcase />,
+    year: "2024 - (present)",
+    title: "Software Developer at <span>RIO Analytics</span>",
+    desc: "Working as a front-end developer focused on maintaining and improving the platform’s codebase, fixing bugs, and integrating front-end with backend APIs. I implement interactive and responsive data visualizations using Angular, applying best practices for performance optimization and component reusability",
+  },
 
   /*{
     id: 2,
