@@ -15,7 +15,7 @@ import Work2 from "./src/assets/project-2.png";
 import Work3 from "./src/assets/project-3.png";
 import Work4 from "./src/assets/project-4.png";
 import Work5 from "./src/assets/project-5.png";
-import Work6 from "./src/assets/project-6.jpg";
+import Work6 from "./src/assets/project-6.png";
 
 /*Themes */
 import Theme4 from "./src/assets/blue.png";
@@ -456,26 +456,26 @@ export const portfolio = [
   {
     id: 6,
     img: Work6,
-    title: "Photo Editing",
+    title: "Case Rio Analytcs",
     details: [
       {
         icon: <FiFileText />,
-        title: "Project : ",
-        desc: "Photo",
+        title: "Project: ",
+        desc: "Angular app for RIO Analytics test, with country data and charts.",
       },
       {
         icon: <FiUser />,
         title: "Client : ",
-        desc: "Dribble",
+        desc: "RIO Analytics",
       },
       {
         icon: <FaCode />,
         title: "Language : ",
-        desc: "Adobe Photoshop",
+        desc: "Typescript",
       },
       {
         icon: <FiExternalLink />,
-        title: "Preview : ",
+        title: "Preview: ",
         desc: "www.dibble.com",
       },
     ],
