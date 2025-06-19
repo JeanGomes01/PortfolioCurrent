@@ -124,9 +124,33 @@
     margin-bottom: 45px;
   }
 
-  .skills__container {
-    grid-template-columns: 1fr;
+  .skills__item {
+    width: 100%;
+    max-width: 160px;
+    min-width: 120px;
+    margin: 0 auto;
+    padding: 1rem;
+    box-sizing: border-box;
+    text-align: center;
   }
+
+  .skills__item img {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 0.5rem;
+  }
+
+  .skills__item p {
+    font-size: 0.8rem;
+    line-height: 1.2;
+    word-break: break-word;
+  }
+
+  .swiper-slide {
+    padding: 0 8px;
+    box-sizing: border-box;
+  }
+
   .resume__container {
     row-gap: 45px;
   }
@@ -254,7 +278,6 @@
   }
 
   .skills__container {
-    grid-template-columns: repeat(2, 1fr);
     height: 100%;
   }
   .portfolio__container {
@@ -409,7 +432,6 @@
     grid-template-columns: 1fr;
   }
   .skills__container {
-    grid-template-columns: 1fr 1fr;
     margin: left;
     height: 90%;
     margin-bottom: 90%;

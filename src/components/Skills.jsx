@@ -23,11 +23,19 @@ const Skills = () => {
       <Swiper
         className="skills__carousel"
         modules={[Autoplay]}
-        spaceBetween={5}
+        spaceBetween={20}
         loop={true}
         loopedSlides={skills.length}
         speed={4000}
         autoplay={{ delay: 0, disableOnInteraction: false }}
+        breakpoints={{
+          1400: { slidesPerView: 6 },
+          1024: { slidesPerView: 5 },
+          768: { slidesPerView: 4 },
+          576: { slidesPerView: 3 },
+          360: { slidesPerView: 2 },
+          0: { slidesPerView: 1 },
+        }}
         slidesPerView={6}
         freeMode={true}
         freeModeMomentum={false}
