@@ -1,32 +1,52 @@
+import { useRef } from "react";
+import "swiper/css";
+import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { skills } from "../../data";
-/*import { CircularProgressbar } from 'react-circular-progressbar';*/
-import "react-circular-progressbar/dist/styles.css";
-import "swiper/css";
 
 const Skills = () => {
+  const swiperRef = useRef(null);
+
   return (
-    <Swiper
-      className="skills__carousel"
-      spaceBetween={20}
-      loop={true}
-      autoplay={{ delay: 2000 }}
-      breakpoints={{
-        320: { slidesPerView: 2 },
-        768: { slidesPerView: 3 },
-        1024: { slidesPerView: 4 },
-        1440: { slidesPerView: 5 },
+    <div
+      onMouseEnter={() => {
+        if (swiperRef.current) {
+          swiperRef.current.autoplay.stop();
+        }
+      }}
+      onMouseLeave={() => {
+        if (swiperRef.current) {
+          swiperRef.current.autoplay.start();
+        }
       }}
     >
-      {skills.map(({ title, imgLogo }, index) => (
-        <SwiperSlide key={index}>
-          <div className="skills__item">
-            <img src={imgLogo} alt={title} />
-            <p>{title}</p>
-          </div>
-        </SwiperSlide>
-      ))}
-    </Swiper>
+      <Swiper
+        className="skills__carousel"
+        modules={[Autoplay]}
+        spaceBetween={20}
+        loop={true}
+        speed={2000}
+        autoplay={{
+          delay: 0,
+          disableOnInteraction: false,
+        }}
+        slidesPerView={5}
+        freeMode={true}
+        freeModeMomentum={false}
+        onSwiper={(swiper) => {
+          swiperRef.current = swiper;
+        }}
+      >
+        {skills.map(({ title, imgLogo }, index) => (
+          <SwiperSlide key={index}>
+            <div className="skills__item">
+              <img src={imgLogo} alt={title} />
+              <p>{title}</p>
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    </div>
   );
 };
 
