@@ -1,4 +1,3 @@
-import React from "react";
 import { resume } from "../../../data";
 import Certificates from "../../components/Certificates";
 import ResumeItem from "../../components/ResumeItem";
@@ -40,7 +39,7 @@ const About = () => {
       <div className="separator"></div>
       <section className="skills">
         <h3 className="section__subtitle subtitle__center">My Skills</h3>
-        <div className="skills__container grid">
+        <div className="skills__container">
           <Skills />
         </div>
       </section>
