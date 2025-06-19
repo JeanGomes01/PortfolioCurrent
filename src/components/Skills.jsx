@@ -23,21 +23,20 @@ const Skills = () => {
       <Swiper
         className="skills__carousel"
         modules={[Autoplay]}
-        spaceBetween={20}
+        spaceBetween={5}
         loop={true}
-        speed={2000}
-        autoplay={{
-          delay: 0,
-          disableOnInteraction: false,
-        }}
-        slidesPerView={5}
+        loopedSlides={skills.length}
+        speed={4000}
+        autoplay={{ delay: 0, disableOnInteraction: false }}
+        slidesPerView={6}
         freeMode={true}
         freeModeMomentum={false}
+        cssMode={false}
         onSwiper={(swiper) => {
           swiperRef.current = swiper;
         }}
       >
-        {skills.map(({ title, imgLogo }, index) => (
+        {[...skills, ...skills].map(({ title, imgLogo }, index) => (
           <SwiperSlide key={index}>
             <div className="skills__item">
               <img src={imgLogo} alt={title} />
