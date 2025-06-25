@@ -1,7 +1,6 @@
-import React from "react";
 import { FaArrowRight, FaDownload } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import CV from "../../assets/Currículo - Jean Laranjeira Gomes 2024.pdf";
+import CV from "../../assets/Currículo - Jean Laranjeira Gomes 2025 - Atualizado.pdf";
 import Profile from "../../assets/home.png";
 import ParticlesBackground from "../../components/ParticlesBackground";
 import "./home.css";
